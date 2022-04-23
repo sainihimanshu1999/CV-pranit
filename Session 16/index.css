@@ -1,0 +1,23 @@
+
+ul li{
+    list-style: none;
+    position: relative;
+    padding: 3px 14px 2px 25px;
+}
+
+ul li::before{
+    content: '>>';
+    position:absolute;
+    top:6px;
+    left:0;
+}
+
+ul{
+    background-color: goldenrod;
+    padding: 20px;
+}
+
+ul li{
+    background-color: hotpink;
+    margin: 5px;
+}
